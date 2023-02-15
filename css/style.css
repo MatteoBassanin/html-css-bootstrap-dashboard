@@ -71,5 +71,7 @@
        
     }
 
-
+    .ms_hidden{
+        display: none;
+    }
 }
