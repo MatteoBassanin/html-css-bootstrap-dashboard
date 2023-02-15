@@ -12,8 +12,9 @@
 
 .debug .ms_side_bar{
     width: 70px;
-    /* height: 900px; */
+    height: calc(100vh - 70px);
     background-color: coral;
+    position: fixed;
 }
 
 .debug .ms_main{
@@ -24,6 +25,7 @@
 
 .debug .ms_big_container{
     width: calc(100% - 70px);
+    
     height: 100%;
     background-color: blue;
 }
@@ -53,7 +55,7 @@
     min-height: 500px;
 }
 
-.ms_visible ul{
+.ms_visible ul,.ms_side_bar ul{
     list-style: none;
 }
 
@@ -91,7 +93,7 @@
 
 
     .ms_visible{
-        display:block;
+        display:inline-block;
     }
 
 
