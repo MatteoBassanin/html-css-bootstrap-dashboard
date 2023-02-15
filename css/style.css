@@ -12,12 +12,12 @@
 
 .debug .ms_side_bar{
     width: 70px;
-    height: 900px;
+    /* height: 900px; */
     background-color: coral;
 }
 
 .debug .ms_main{
-    height: 100%;
+    /* height: 100%; */
     background-color: mediumspringgreen;
     padding: 0;
 }
@@ -35,7 +35,7 @@
 
 .debug .row{
     margin: 0;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .debug .ms_card{
@@ -43,7 +43,33 @@
     min-height: 500px;
 }
 
-.debug .ms_card{
+.debug .ms_card_small{
     background-color: rgb(116, 67, 116);
+    min-height: 200px;
+}
+
+.debug .ms_card_tiny{
+    background-color: rgb(67, 116, 78);
     min-height: 500px;
+}
+
+
+
+/* media query */
+
+
+@media screen and (min-width : 992px){
+   
+    .debug .ms_side_bar{
+        width: 150px;
+       
+    }
+
+    
+    .debug .ms_big_container{
+        width: calc(100% - 150px);
+       
+    }
+
+
 }
