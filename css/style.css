@@ -53,7 +53,21 @@
     min-height: 500px;
 }
 
+.ms_visible ul{
+    list-style: none;
+}
 
+.ms_visible a {
+    text-decoration: none;
+}
+
+.ms_visible li{
+    padding: 0 5px;
+}
+
+.ms_visible{
+    display: none;
+}
 
 /* media query */
 
@@ -74,4 +88,18 @@
     .ms_hidden{
         display: none;
     }
+
+
+    .ms_visible{
+        display:block;
+    }
+
+
 }
+
+
+
+/* cose utili */
+
+
+/* <i class="fa-solid fa-magnifying-glass"></i> */
