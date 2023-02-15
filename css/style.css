@@ -14,7 +14,7 @@
     width: 70px;
     height: calc(100vh - 70px);
     background-color: coral;
-    position: fixed;
+    position: sticky;
 }
 
 .debug .ms_main{
@@ -24,8 +24,7 @@
 }
 
 .debug .ms_big_container{
-    width: calc(100% - 70px);
-    
+    width: calc(100% - 70px);   
     height: 100%;
     background-color: blue;
 }
