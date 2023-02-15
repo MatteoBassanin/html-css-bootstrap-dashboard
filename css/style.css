@@ -14,13 +14,14 @@
     width: 70px;
     height: calc(100vh - 70px);
     background-color: coral;
-    position: sticky;
+    /* position: sticky; */
 }
 
 .debug .ms_main{
     /* height: 100%; */
     background-color: mediumspringgreen;
     padding: 0;
+    height: calc(100vh - 70px);
 }
 
 .debug .ms_big_container{
