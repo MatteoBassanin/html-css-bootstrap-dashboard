@@ -25,11 +25,14 @@
     height: calc(100vh - 70px);
 }
 
-a i,li a{
+aside a,.ms_action_bar a  {
     color: white;
 }
 
 
+input.form-control.me-2.border-start-0.ms_bg_header,span.input-group-text.border-end-0.ms_bg_header {
+    background-color: #E1E1E1;
+}
 
 .debug .ms_big_container{
     width: calc(100% - 70px);   
