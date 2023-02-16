@@ -15,6 +15,12 @@
     height: 100px;
 }
 
+aside{
+  background-image: url("../img/sidebar-bg.png");
+  
+}
+
+
 .debug .ms_side_bar{
     width: 70px;
     background-color: #132437;  
