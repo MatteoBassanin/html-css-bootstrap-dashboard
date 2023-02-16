@@ -15,17 +15,18 @@
         <div class="container-fluid header_bar d-flex align-items-center justify-content-between">
 
             <div class="ms_container_logo">
-                <img src="img/logo.svg" alt="logo"/>
+                <img src="img/logo.svg" class="ms_visible" alt="logo"/>
+                <img src="img/mobile-logo.png" class="ms_hidden mobile_logo" alt="logo mobile">
             </div>
             <form class="d-flex w-75" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">        
             </form>
             
-            <div class="nav-item dropdown ms_list_actions ms_hidden">
+            <div class="nav-item dropstart ms_list_actions ms_hidden">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-solid fa-bell"></i>
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu d-flex align-items-center">
                     <li><a class="dropdown-item" href="#">Profilo</a></li>
                     <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                     <li><a class="dropdown-item" href="#">Logout</a></li>
@@ -80,7 +81,7 @@
                     <div class="ms_new_student">
                         Nuovo Studente  <button class="btn btn-light btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
     
-                        <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas offcanvas-end w-sm-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                           <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
