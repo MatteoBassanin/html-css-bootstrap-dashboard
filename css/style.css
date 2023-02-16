@@ -1,7 +1,6 @@
 /* degug */
 
 .debug .header_bar{
-    background-color: brown;
     height: 70px;
 } 
 
@@ -18,27 +17,28 @@
 
 .debug .ms_side_bar{
     width: 70px;
-    /* height: calc(100vh - 70px); */
-    background-color: coral;
-    
+    background-color: #132437;  
 }
 
-.debug .ms_main{
-    /* height: 100%; */
-    background-color: mediumspringgreen;
+.ms_main{  
     padding: 0;
     height: calc(100vh - 70px);
 }
 
+a i,li a{
+    color: white;
+}
+
+
+
 .debug .ms_big_container{
     width: calc(100% - 70px);   
     height: 100%;
-    background-color: blue;
 }
 
-.debug .ms_action_bar{
-    min-height: 150px;
-    background-color: slategray;
+.ms_action_bar{
+    min-height: 120px;
+    background-color: #1867E4;
 }
 
 .debug .row{
@@ -46,20 +46,19 @@
     /* padding: 50px; */
 }
 
-.debug .ms_card{
-    background-color: purple;
+/* .debug .ms_card{
     min-height: 500px;
-}
+} */
 
-.debug .ms_card_small{
+/* .debug .ms_card_small{
     background-color: rgb(116, 67, 116);
     min-height: 200px;
-}
+} */
 
-.debug .ms_card_tiny{
+/* .debug .ms_card_tiny{
     background-color: rgb(67, 116, 78);
     min-height: 500px;
-}
+} */
 
 .ms_visible ul,.ms_side_bar ul{
     list-style: none;
@@ -105,6 +104,9 @@ i.fa-solid.fa-pencil.border.p-2.rounded-2,i.fa-solid.fa-trash.border.p-2.rounded
     border-radius: 0 0 5px 5px ;
 }
 
+.ms_card_container{
+    width: 100%;
+}
 
 /* media query */
 
