@@ -29,6 +29,10 @@ aside a,.ms_action_bar a  {
     color: white;
 }
 
+aside li {
+    padding: 5px 0;
+}
+
 i.fa-solid.fa-bell {
     color: #FF840A;
 }
@@ -57,22 +61,7 @@ input.form-control.me-2.border-start-0 {
 
 .debug .row{
     margin: 0;
-    /* padding: 50px; */
 }
-
-/* .debug .ms_card{
-    min-height: 500px;
-} */
-
-/* .debug .ms_card_small{
-    background-color: rgb(116, 67, 116);
-    min-height: 200px;
-} */
-
-/* .debug .ms_card_tiny{
-    background-color: rgb(67, 116, 78);
-    min-height: 500px;
-} */
 
 .ms_visible ul,.ms_side_bar ul{
     list-style: none;
@@ -127,6 +116,20 @@ i.fa-solid.fa-pencil.border.p-2.rounded-2,i.fa-solid.fa-trash.border.p-2.rounded
 
 header ul{
     margin:0;
+}
+
+tr:hover{
+    background-color: rgb(0, 0, 0, 0.2);
+
+}
+
+aside li:hover{
+  background-color: rgb(255, 255, 255,0.2);
+  
+}
+
+span.ms_borded_rounded.ms_plus.ms_hidden {
+    background-color: #EBB757;
 }
 
 /* media query */
