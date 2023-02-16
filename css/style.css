@@ -87,6 +87,15 @@
     width: 100%;
 }
 
+th img{
+    height: 30px;
+}
+
+i.fa-solid.fa-pencil.border.p-2.rounded-2,i.fa-solid.fa-trash.border.p-2.rounded-2 {
+    color: darkgray;
+}
+
+
 /* media query */
 
 @media screen and (min-width : 768px){
