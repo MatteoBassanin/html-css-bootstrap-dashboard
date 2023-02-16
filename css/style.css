@@ -29,6 +29,13 @@ aside a,.ms_action_bar a  {
     color: white;
 }
 
+i.fa-solid.fa-bell {
+    color: #FF840A;
+}
+
+header li a{
+    color: #4D4A4A;
+}
 
 input.form-control.me-2.border-start-0.ms_bg_header,span.input-group-text.border-end-0.ms_bg_header {
     background-color: #E1E1E1;
