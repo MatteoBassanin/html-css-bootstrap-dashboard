@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boolean Organizer</title>
 </head>
 <body class="debug">
     
@@ -18,7 +18,8 @@
                 <img src="img/logo.svg" class="ms_visible" alt="logo"/>
                 <img src="img/mobile-logo.png" class="ms_hidden mobile_logo" alt="logo mobile">
             </div>
-            <form class="d-flex w-75" role="search">
+            <form class="d-flex w-75 border-start-0" role="search">
+                <span class="input-group-text border-end-0" ><i class="fa-solid fa-magnifying-glass"></i></span>
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">        
             </form>
             
@@ -71,7 +72,7 @@
                     <li><a href="#"><i class="fa-solid fa-signal"></i></a> <span class="ms_visible">Signals</span></li>                    
                 </ul>
 
-                <div class="align-self-center">
+                <div class="align-self-center ms_aside_bot">
                     <a href="#"><i class="fa-solid fa-gear"></i> <span class="ms_visible">Admin</span></a>
                 </div>
             </aside>
@@ -102,10 +103,12 @@
                                   
                                
 
-                                    <div class="input-group mb-3 col-6">
+                                    <div class="mb-3 col-6">
                                         <label for="Inputemail" class="form-label">Email</label>
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" id="Inputemail" aria-label="Username" aria-describedby="basic-addon1">
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <input type="text" class="form-control" id="Inputemail" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
                                     </div>
     
                                     <div class="mb-3 col-6">
@@ -113,13 +116,59 @@
                                         <input type="password" class="form-control" id="InputPassword1">
                                     </div>
 
-                                
-                                    <div class="mb-3 form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    <div class="mb-3 col-6">
+                                        <label for="Inputemail" class="form-label">Email</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <input type="text" class="form-control" id="Inputemail" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
                                     </div>
-                                </div>  
-                                <button type="submit" class="btn btn-primary">Submit</button>
+    
+                                    <div class="mb-3 col-6">
+                                        <label for="InputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="InputPassword1">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="InputName" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="Inputname" aria-describedby="nameHelp">
+
+                                    </div> 
+
+                                    <div class="col-6">
+                                        <label for="InputName" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="Inputname" aria-describedby="nameHelp">
+
+                                    </div> 
+
+                                    <div class="col-4">
+                                        <label for="InputName" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="Inputname" aria-describedby="nameHelp">
+
+                                    </div> 
+
+                                    <div class="col-2">
+                                        <label for="InputName" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="Inputname" aria-describedby="nameHelp">
+
+                                    </div> 
+
+                                    <div class="input-group col-12 py-4">
+                                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                    </div>
+
+                                
+                                    <div class="mb-3 pe-2 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                                    </div>
+                                    
+                                </div> 
+                                <div class="ms_buttons">
+                                    <button type="submit" class="btn btn-primary">Salva</button>
+                                    <button type="reset" class="btn btn-warning">Svuota</button>
+
+                                </div> 
                             </form>
                           </div>
                         </div>
@@ -148,7 +197,76 @@
                     <div class="col-12 col-lg-8 ms_container_cards">
                         <div class="row g-5">
                             <div class="col-12  ms_card">
-
+                                <div class="card">
+                                    <h5 class="card-header">Prossime Classi</h5>
+                                    <div class="card-body">
+                                      <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col">Data inizio</th>
+                                            <th scope="col">ROI</th>
+                                            <th scope="col">Stato</th>
+                                            <th scope="col">Azioni</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>  <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>  <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>  <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>  <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>  <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">Classe 75</th>
+                                            <td>15 feb 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                     
+                                    </div>
+                                  </div>
                             </div>
 
                             <div class="col-12  ms_card">

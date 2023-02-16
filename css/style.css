@@ -12,6 +12,10 @@
     height: calc(100vh - 70px);
 }
 
+.ms_aside_bot{
+    height: 100px;
+}
+
 .debug .ms_side_bar{
     width: 70px;
     /* height: calc(100vh - 70px); */
