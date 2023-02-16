@@ -73,9 +73,11 @@
     padding: 0 5px;
 }
 
-.ms_visible{
+.ms_visible,.ms_visible_little{
     display: none;
 }
+
+
 
 .ms_borded_rounded{
     border: 1px solid white;
@@ -102,6 +104,10 @@ i.fa-solid.fa-pencil.border.p-2.rounded-2,i.fa-solid.fa-trash.border.p-2.rounded
     .ms_action_bar{
         display: flex;
         justify-content: space-between;
+    }
+
+    .ms_visible_little{
+        display: inline-block;
     }
 
     .ms_new_student{
