@@ -37,8 +37,12 @@ header li a{
     color: #4D4A4A;
 }
 
-input.form-control.me-2.border-start-0.ms_bg_header,span.input-group-text.border-end-0.ms_bg_header {
-    background-color: #E1E1E1;
+span.input-group-text.border-end-0 {
+    background: #E1E1E1;
+}
+
+input.form-control.me-2.border-start-0 {
+    background: #E1E1E1;
 }
 
 .debug .ms_big_container{
@@ -116,6 +120,10 @@ i.fa-solid.fa-pencil.border.p-2.rounded-2,i.fa-solid.fa-trash.border.p-2.rounded
 
 .ms_card_container{
     width: 100%;
+}
+
+header ul{
+    margin:0;
 }
 
 /* media query */
