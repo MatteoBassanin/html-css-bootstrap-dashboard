@@ -97,7 +97,13 @@ i.fa-solid.fa-pencil.border.p-2.rounded-2,i.fa-solid.fa-trash.border.p-2.rounded
     color: darkgray;
 }
 
+.ms_top_rounded{
+    border-radius: 5px 5px 0 0;
+}
 
+.ms_bot_rounded{
+    border-radius: 0 0 5px 5px ;
+}
 /* media query */
 
 @media screen and (min-width : 768px){
