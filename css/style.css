@@ -90,12 +90,15 @@ input.form-control.me-2.border-start-0 {
     display: none;
 }
 
+.ms_white_bread_crumb{
+    filter: invert(1);
+}
 
-
-.ms_borded_rounded{
-    border: 1px solid white;
+.ms_borded_rounded{   
     border-radius: 25px;
-    padding: 0 5px;
+    padding: 2px 5px;
+    font-size: 14px;
+    background-color: #1551B1;
 }
 
 #offcanvasRight{
